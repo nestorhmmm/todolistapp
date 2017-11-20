@@ -1,6 +1,7 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Tasks<i class="fa fa-handshake-o" aria-hidden="true"></i>
+<h1>Tasks <i class="fa fa-bars" aria-hidden="true"></i>
+
 </h1>
 
 <table class= 'table'>
@@ -28,7 +29,7 @@
 </table>
 
 <br>
-
-<%= link_to 'New Task', new_task_path %>
-<img src="/assets/4978924.png" alt="logo">
-<%= image_tag '4978924.png' %>
+<center class="stack">
+  <%= link_to 'New Task', new_task_path, class: 'newtask' %>
+  <%= image_tag 'https://assets-cdn.github.com/images/modules/logos_page/Octocat.png', class: "logo" %>
+</center>
